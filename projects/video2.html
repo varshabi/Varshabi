@@ -1,0 +1,124 @@
+
+<!-- Open Sans -->
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css" />
+	 
+<!-- FontAwesome Icon Pack -->
+<link rel="stylesheet" type="text/css" media="screen" href="packages/font-awesome/css/font-awesome.min.css" />
+
+<!-- Main Stylesheet -->
+<link rel="stylesheet" type="text/css" media="screen" href="css/html5-video-player.min.css" />	 
+
+<!-- Main Javascript -->
+<script type="text/javascript" src="js/html5-video-player.jquery.min.js"></script>
+
+<script>
+		$(document).ready(function() {
+			$('#myVideo').html5_video({
+				source : {
+					"video/mp4"  : "videos/vid.mp4",					
+				},
+				title: 					'Big Buck Bunny',
+				color: 					'#3a7d57',
+				width: 					false,
+				poster: 				'poster.jpg',
+				buffering_text: 		'Buffering',
+				autoplay: 				false,
+				play_control: 			true,
+				time_indicator: 		true,
+				volume_control: 		true,
+				share_control: 			true,
+				fullscreen_control: 	true,
+				dblclick_fullscreen: 	true,
+				
+				volume: 				0.7,
+				
+				show_controls_on_load: 	true,
+				show_controls_on_pause: true,
+
+				// Callbacks
+				on_play: 		function() {
+					$(".callback").html('You clicked play');
+				},
+				on_pause: 		function() {
+					$(".callback").html('You paused the video');
+				},
+				on_stop: 		function() {
+					$(".callback").html('The video stopped');
+				},
+				on_seek: 		function(seconds) {
+					$(".callback").html('You seeked to: '+seconds+' seconds');
+				},
+				on_volume: 		function(volume) {
+					$(".callback").html('You set the volume to: '+volume);
+				},
+				on_time_update: function(seconds) {
+					$(".time").html(seconds);
+				},
+			});
+		});
+	</script>
+	
+
+<div class="cbp-l-project-title">Shahrouz Varshabi</div>
+<div class="cbp-l-project-subtitle">Graphic / Web Design</div>
+                 
+	         <div class="cbp-misc-video">
+            	<div id="myVideo"></div>
+            </div>				
+<div class="cbp-social-media">
+<div class="social-likes" data-url="http://varshabi.com" data-title="Web Design / Web Developement portfolio by Shahrouz Varshabi">
+		<div class="facebook" title="Share link on Facebook">Facebook</div>
+		<div class="twitter" data-via="svarshabi" data-related="" title="Share link on Twitter">Twitter</div>
+		<div class="plusone" title="Share link on Google+">Google+</div>
+		<div class="pinterest" data-media="" title="Share image on Pinterest">Pinterest</div>
+	</div>
+</div>
+
+<div class="cbp-l-project-container">
+	<div class="cbp-l-project-desc">
+	    <div class="cbp-l-project-desc-title"><span>Project Description</span></div>
+	    <div class="cbp-l-project-desc-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, cumque, earum blanditiis incidunt minus commodi consequatur provident quae. Nihil, alias, vel consequatur ab aliquam aspernatur optio harum facilis excepturi mollitia autem voluptas cum ex veniam numquam quia repudiandae in iure. Assumenda, vel provident molestiae perferendis officia commodi asperiores earum sapiente inventore quam deleniti mollitia consequatur expedita quaerat natus praesentium beatae aut ipsa non ex ullam atque suscipit ut dignissimos magnam!</div>
+	</div>
+	<div class="cbp-l-project-details">
+		<div class="cbp-l-project-details-title"><span>Project Details</span></div>
+
+		<ul class="cbp-l-project-details-list">
+			<li><strong>Client</strong>John Doe</li>
+			<li><strong>Date</strong>22 December 2013</li>
+			<li><strong>Categories</strong>Logo, Graphic</li>
+		</ul>		
+		<a href="#" target="_blank" class="cbp-l-project-details-visit">visit the site</a>
+	</div>
+</div>
+
+<div class="cbp-l-project-container">
+	<div class="cbp-l-project-related">
+	    <div class="cbp-l-project-desc-title"><span>Related Projects</span></div>
+
+		<ul class="cbp-l-project-related-wrap">
+			<li class="cbp-l-project-related-item">
+				<a href="ajax/project11.html" class="cbp-singlePage cbp-l-project-related-link">
+					<img src="img/11.jpg" alt="">
+					<div class="cbp-l-project-related-title">Generic Apps</div>
+				</a>
+			</li>
+			<li class="cbp-l-project-related-item">
+				<a href="ajax/project1.html" class="cbp-singlePage cbp-l-project-related-link">
+					<img src="img/1.jpg" alt="">
+					<div class="cbp-l-project-related-title">Dashboard</div>
+				</a>
+			</li>
+			<li class="cbp-l-project-related-item">
+				<a href="ajax/project2.html" class="cbp-singlePage cbp-l-project-related-link">
+					<img src="img/2.jpg" alt="">
+					<div class="cbp-l-project-related-title">World Clock Widget</div>
+				</a>
+			</li>
+		</ul>
+
+	</div>
+</div>
+
+<br>
+<br>
+<br>

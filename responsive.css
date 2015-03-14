@@ -1,0 +1,560 @@
+/*======================================
+			RESPONSIVE CSS
+=======================================*/
+/* Large */
+@media(max-width:1024px) {
+}
+/* Extra Small */
+@media(max-width:980px) {
+
+	#about .main_icon {
+		top: -65px;
+	}
+	.cbp-popup-content .main_icon {
+		text-align: center;
+		display: inline-block;
+		position: relative;
+		top: -105px;
+
+	}
+}
+
+@media(max-width:767px) {
+
+	.big-logo {
+		bottom: 0;
+		margin-top: 10%;
+		position: relative;
+		z-index: 9;
+	}
+
+	.big-logo-page {
+		bottom: 0;
+		margin-top: 30%;
+		position: relative;
+		z-index: 9;
+	}
+
+	.main_icon .icon{
+		margin-top:0px;
+	}
+	
+	.static li{
+		width:50%;
+	}
+	.static li:nth-child(5){
+		width:100%;
+	}
+	#home{
+		height:750px;
+		min-height: 750px;
+		padding-top: 55px;
+	}
+	#home-custom {
+		height:750px;
+		min-height: 750px;
+		padding-top: 55px;
+	}
+
+	.navbar-toggle{
+	}
+	header .menu{
+		margin-top:0px;
+	}
+	.navbar-header{
+		float:none;
+		margin-top:5px;
+	}
+	header{
+		position:absolute;
+		top:0px;
+	}
+	header{
+		background: #212121;
+	}
+	.nav > li{
+		width:100%;
+	}
+	header .navbar {
+		margin: 0px;
+		display: inline-block;
+		float: left;
+		margin-left: 75px;
+		position: relative;
+		left: 0px;
+		margin-left: 0px;
+		width: 100%;
+	}
+	.navbar-nav{
+		margin:0px;
+	}
+	.navbar{
+		min-height:0px;
+	}
+	
+	.is-sticky header{
+		position:absolute !important;
+		background: #1b1b1b;
+		margin-top: -2px;
+	}
+	
+	.is-sticky #logoheader {
+		display: none;
+	}
+	
+	#social.page-panel.diagonal-top-up:before{
+		display:none;
+	}
+	#social .social_icons li:nth-child(1),  #social .social_icons li:nth-child(2), #social .social_icons li:nth-child(3),  #social .social_icons li:nth-child(4), #social .social_icons  li:nth-child(4), #social .social_icons li:nth-child(5){
+		margin:30px 0 !important;
+	}
+	#social{
+		height:auto;
+		padding:0px;
+		margin-top:50px;
+	}
+	#social .social_icons{
+		margin-top:0px;
+	}
+	
+	#footer .links{
+		margin-top:50px;
+	}
+	header .social_icons {
+		position: absolute;
+	}
+
+	.cbp-popup-content .main_icon {
+		text-align: center;
+		display: inline-block;
+		position: relative;
+		top: -105px;
+
+	}
+}
+
+@media (max-width: 600px) {
+	.big-logo {
+    bottom: 0;
+    margin-top: 10%;
+    position: relative;
+    z-index: 9;
+	}
+	.big-logo-page {
+	bottom: 0;
+    margin-top: 45%;
+    position: relative;
+    z-index: 9;	
+	}
+	#home {
+		height: 750px;
+		min-height: initial;
+	}
+	.is-sticky #logoheader{
+		display: none;
+	}
+	
+}
+
+@media(max-width:540px) {
+
+	.big-logo {
+    bottom: 0;
+    margin-top: 10%;
+    position: relative;
+    z-index: 9; 
+	}
+
+	.big-logo-page {
+	bottom: 0;
+    margin-top: 50%;
+    position: relative;
+    z-index: 9;
+	}
+
+	#home .text span {
+		letter-spacing: 8px;
+		line-height: 38px;
+		font-size: 19px;
+	}
+	#home .text h1 {
+		font-size: 36px;
+	}
+	#home {
+		height: 750px;
+		min-height: initial;
+	}
+	#home .text {
+		margin-top: 6%;
+	}
+	header {
+		position: absolute;
+		top: 0px;
+	}
+	header .menu {
+		margin-top: 0px;
+	}
+	.main_icon .icon {
+	}
+
+	.navbar-toggle {
+		width: 50px;
+	}
+	.is-sticky #logoheader{
+		display: none;
+	}
+	
+
+	
+}
+
+@media(max-width:400px) {
+
+	.big-logo {
+    bottom: 0;
+    margin-top: 10%;
+    position: relative;
+    z-index: 9; 
+	}
+
+	.big-logo-page {
+	bottom: 0;
+    margin-top: 45%;
+    position: relative;
+    z-index: 9; 
+	}
+
+	#home .text span {
+		letter-spacing: 8px;
+		line-height: 38px;
+		font-size: 19px;
+	}
+	#home .text h1 {
+		font-size: 36px;
+	}
+	#home {
+		height: 750px;
+		min-height: initial;
+	}
+	#home .text {
+		margin-top: 25%;
+	}
+	.big-logo{
+		position: relative;
+		bottom: -25px;
+	}
+
+	header {
+		position: absolute;
+		top: 0px;
+	}
+	header .menu {
+		margin-top: 0px;
+	}
+	.main_icon .icon {
+		margin-top: 30px;
+	}
+	
+	.navbar-toggle {
+		width: 50px;
+	}
+	
+	header .social_icons{
+		position:relative;
+		width:100%;
+	}
+
+	.is-sticky #logoheader{
+		display: none;
+	}
+
+	.navbar-header{
+
+	}
+
+	#about .main_icon {
+		top: -95px;
+	}
+
+	.cbp-images{
+    width: 100%;
+    margin: 0 auto;
+	}
+
+	.cbp-images ul li {
+    margin: 5px;
+	}
+	.cbp-popup-content .main_icon {
+		text-align: center;
+		display: inline-block;
+		position: relative;
+		top: -135px;
+
+	}
+
+}
+
+@media(max-width:320px) {
+
+	.big-logo {
+    bottom: 0;
+    margin-top: 45%;
+    position: relative;
+    z-index: 9; 
+	}
+
+	.big-logo-page {
+	bottom: 0;
+    margin-top: 45%;
+    position: relative;
+    z-index: 9; 
+	}
+
+	
+	#home .text span {
+		letter-spacing: 8px;
+		line-height: 38px;
+		font-size: 19px;
+	}
+	#home .text h1 {
+		font-size: 36px;
+	}
+	#home {
+		height: 100%;
+		background: url(../images/home-bg.jpg) top center no-repeat;
+		min-height: initial;
+	}
+	#home .text {
+		margin-top: 20%;
+	}
+	header {
+		position: absolute;
+		top: 0px;
+	}
+	header .menu {
+		margin-top: 0px;
+	}
+	.main_icon .icon {
+		margin-top: 30px;
+	}
+
+	#about .main_icon {
+		top: -65px;
+	}
+	.cbp-images{
+    width: 100%;
+    margin: 0 auto;
+	}
+
+	.cbp-images ul li {
+    margin: 5px;    
+	}
+
+	.is-sticky #logoheader{
+		display: none;
+	}
+	
+
+
+}
+
+@media(min-width:768px) and (max-width:991px) {
+
+	.big-logo {
+    bottom: 0;
+    margin-top: 10%;
+    position: relative;
+    z-index: 9; 
+	}
+
+	.big-logo-page {
+    bottom: 0;
+    margin-top: 10%;
+    position: relative;
+    z-index: 9; 
+	}
+	
+	.main_icon {
+		margin-top: 0px;
+	}
+	.main_icon {
+		margin-top: 10px !important;
+	}
+	.main_icon .icon {
+		margin-top: 0px;
+	}
+
+	header .navbar-default .navbar-nav > li > a{
+		padding:10px 7px;
+	}
+
+	.is-sticky header {
+	background: #1b1b1b;
+	margin-top: -2px;
+	background: url(../images/header-top-bg.png) top center repeat-x;
+	}
+
+	.is-sticky #logoheader {
+	position: relative;
+	margin-top: 0px;
+	background: url(../images/logo_header.png) no-repeat;
+	width: 115px;
+	height: 115px;
+	margin: 0 auto;
+	z-index: 10;
+	top: -18px;
+	}
+}
+
+
+/* Medium */
+@media(min-width:992px) and (max-width:1199px) {
+
+
+}
+
+
+@media(max-width:1400px) {
+	.main_icon {
+	margin-top: 11px !important;
+}
+}
+/* Large */
+@media(min-width:1200px) {
+}
+
+
+
+/*
+===============================================
+			12. Media Queries for Resume
+===============================================
+*/
+
+/* Portrait tablet to landscape and desktop */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+}
+
+@media only screen and (min-width: 768px){
+	
+}
+
+/* Landscape phone to portrait tablet */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+}
+
+@media only screen and (max-width: 1199px) {
+
+	.section_block.eduempl .items .item .content{
+		margin-right: 0;
+	}
+
+	.section_block.eduempl .items .item .bullet,
+	.section_block.eduempl .items .endbullet{
+		margin-left: 3px;
+	}
+
+	.section_block.eduempl .items .item{
+		margin-left: 14px;
+	}
+
+	.section_block.eduempl .items .item .date{
+		margin-left: 8px;
+	}
+
+	.section_block.eduempl .items .item_outer.inv .item .content{
+		margin-left: 0;
+	}
+
+	.section_block.eduempl .items .item_outer.inv .item{
+		margin-left: 0;
+	}
+
+	.section_block.eduempl .items .item_outer.inv .item .bullet{
+		margin-right: 15px;
+		margin-left: 0;
+	}
+
+	.section_block.eduempl .items .item_outer.inv .item .date{
+		margin-right: 21px;
+		margin-left: 0;
+	}
+
+	.portfolio_items .mix .overlay .title span,
+	.portfolio_items .mix .overlay .actions i{
+		font-size: 15px;
+		padding: 10px;
+	}
+
+	.portfolio_items .mix:hover .overlay .title{
+		top: 25%;
+	}
+
+}
+
+@media only screen and (min-width: 991px) {
+
+
+}
+
+@media only screen and (max-width: 991px) {
+	.section_block.eduempl:before{
+		left: 10px;
+	}
+	.section_block.eduempl .items .item{
+		margin: 0;
+	}
+	.section_block.eduempl .items .item .date{
+		float: left !important;
+		margin-left: 10px !important;
+		margin-right: 0 !important;
+		margin-bottom: 10px !important;
+	}
+	.section_block.eduempl .items .item .bullet{
+		position: relative !important;
+		float: left !important;
+		left: 0 !important;
+		margin-left: 10px !important;
+		margin-right: 0 !important;
+		right: 0 !important;
+	}
+	.section_block.eduempl .items .item .content{
+		float: left !important;
+		margin-left: 10px !important;
+		max-width: 100%;
+	}
+
+}
+
+@media only screen and (max-width: 767px) {
+	
+	.portfolio_selector li{
+		width: 100%;
+		margin-bottom: 5px;
+	}
+}
+
+/* Landscape phones and down */
+@media only screen and (max-width: 479px) {
+
+	
+	.portfolio_items .mix .overlay a{
+		width: 70px;
+		height: 70px;
+		line-height: 70px;
+		margin-left: -35px;
+		margin-top: -35px;
+		font-size: 30px;
+	}
+	.portfolio_selector{
+		margin-bottom: 0;
+	}
+	.counters .item{
+		margin-bottom: 25px;
+	}
+	.section_block .section_title{
+		padding-left: 22px;
+	}
+}
